@@ -1,0 +1,97 @@
+
+/* GENERAL --------------------------------------------- */
+
+body, div, ul, li, form, textarea, input { font: 14px/22px 'AvenirRegular', Arial, Verdana, sans-serif; color: #77828C; }
+body { background: #F2F2F2 url('../images/bg-grey-3.jpg'); }
+.container { width: 960px; margin: 0 auto; height: 400px; }
+.main-left { float: left; width: 218px; height: 100%; position: fixed; }
+.main-right { float: right; width: 742px; min-height: 1200px; }
+
+/* MAIN LEFT --------------------------------------------- */
+
+.logo, .logo-tiny { position: absolute; top: 0px; right: 10px; height: 198px; width: 321px; background: url('../images/Aquapur-logo-6.png') no-repeat top right; }
+.logo:hover, .logo-tiny { cursor: pointer; }
+.logo-tiny { background-image: url('../images/Aquapur-logo-6-tiny.png'); visibility: hidden; }
+.nav { position: absolute; top: 220px; right: 65px; width: 180px; }
+.bg-water { position: absolute; width: 762px; height: 100%; right: 0; top: 0; background: url('../images/bg-water-5.jpg') no-repeat right 0px; /*background-size: cover;*/ }
+.blue-border { position: absolute; top: 0; right: 0; width: 762px; height: 20px; background: #275580; opacity: 0.8; }
+.white-border { position: absolute; top: 0; right: 0; width: 36px; height: 100%; }
+.white-border-top { width: 36px; height: 210px; background: url('../images/border-2.png') repeat-y; }
+.white-border-arrow { width: 36px; height: 50px; background: url('../images/border-arrow-2.png') no-repeat; }
+.white-border-bottom { width: 36px; height: 100%; background: url('../images/border-2.png') repeat-y; }
+
+.nav ul { list-style: none; }
+.nav li { text-align: right; font: 17px/32px 'AvenirLTStd35LightRegular', Arial, Verdana, sans-serif; color: #2e689f; cursor: pointer; opacity: 0.5; }
+.nav span { padding: 2px 6px; background: white; -webkit-box-shadow:  1px 1px 4px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15); box-shadow:  1px 1px 4px 0px rgba(0, 0, 0, 0.15); }
+#nav-wat { opacity: 1; }
+
+/* MAIN RIGHT ---------------------------------------------*/
+
+.section { width: 740px; min-height: 200px; padding: 126px 0px 220px 7px; }
+.section-title { position: relative; width: 720px; height: 24px; margin: 0 0 36px 15px; background: url('../images/title-underline.png') repeat-x bottom; font: 18px/18px 'AvenirLTStd35LightItalic', Arial, Verdana, sans-serif; color: #C8CDD1; text-shadow: 1px 1px 0px #ffffff; filter: dropshadow(color=#ffffff, offx=1, offy=1); }
+
+.grid1, .grid2, .grid3, textarea, input, button { -webkit-box-shadow:  1px 1px 4px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15); box-shadow:  1px 1px 4px 0px rgba(0, 0, 0, 0.15); }
+.grid1, .grid2, .grid3 { float: left; margin: 0 0 15px 15px; background: white; }
+.grid1 { width: 230px; }
+.grid2 { width: 475px; }
+.grid3 { width: 720px; }
+
+a:link, a:hover, a:visited { color: #4A84BA }
+a:link { }
+a:hover { text-decoration: none; }
+a:visited { }
+strong { color: #4A84BA }
+
+.headline { margin: 38px 0 10px -12px; font: 24px/24px 'AvenirRegular', Arial, Verdana, sans-serif; color: #FFF; }
+.headline span { padding: 10px 28px 10px 28px; background: #275580 url('../images/bg-headline-3.png'); -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2); box-shadow:  2px 2px 2px 0px rgba(0, 0, 0, 0.2); }
+.title { font: 22px/28px 'AvenirLTStd55RomanBold', Arial, Verdana, sans-serif; color: #275580; padding: 26px 22px 0; }
+.corpus { font: 14px/22px 'AvenirRegular', Arial, Verdana, sans-serif; color: #77828C; padding: 22px; }
+
+.foto-water { height: 335px; background: url('../images/foto-water.jpg') }
+.foto-gras { height: 230px; background: url('../images/foto-gras.jpg') }
+.foto-grietje { height: 310px; background: url('../images/foto-grietje.jpg') }
+.foto-zwanger { height: 320px; background: url('../images/foto-zwanger-2.jpg') }
+.foto-sporter { height: 345px; background: url('../images/foto-sporter.jpg') }
+.foto-genieter { height: 230px; background: url('../images/foto-genieter.jpg') }
+
+.hover { cursor: pointer; }
+.magnify { position: absolute; width: 100%; height: 100%; top: 0; background: url('../images/magnify.png') no-repeat 50% 50%; opacity: 0; }
+.magnify-overlay { position: absolute; width: 100%; height: 100%; top: 0; background: #275580; opacity: 0; }
+.read-more { width: 96px; height: 26px; margin: 18px 0 0 -2px; background: url('../images/read-more.png') no-repeat; }
+
+.no-white { background: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+
+/* TABEL --------------------------------------------- */
+
+table { width: 100%; table-layout:fixed; border: 1px solid #DDD; }
+th, td { text-align: center; width: 52px; height: 24px; cursor: pointer; }
+th { background: #275580 url('../images/bg-tablehead-2.png'); color: #FFF; padding: 4px 0 0 0; }
+td { padding: 2px 0 0 0;  }
+.c1 { width: 146px; text-align: left; padding-left: 10px; }
+tr:hover { background: url('../images/black-dot-10a.png'); }
+.focus { background: #4a84ba; color: #FFF; }
+.td-bg { background: black; width: 52px; height: 24px; position: absolute; opacity: 0.2; }
+#aquapur { background: #4a84ba; color: #FFF; }
+
+/* CHECKLIST --------------------------------------------- */
+
+.corpus ul { list-style: none; margin: 19px 0 15px; }
+.corpus ul li { height: 23px; margin-left: 42px; }
+.check { position: absolute; width: 18px; height: 19px; left: 38px; background: url('../images/check-2.png') no-repeat; margin-top: -2px; }
+
+/* CONTACTFORM --------------------------------------------- */
+
+form { margin-top: 22px; }
+input, textarea { border: 1px solid #CCC; }
+input { display: block; width: 406px; height: 23px; padding: 5px; margin: 6px 0 2px 0; background: #FFF; color: #CCC; }
+textarea { overflow: auto; resize: none; height: 272px; max-height: 272px; min-height: 272px; width: 698px; max-width: 698px; min-width: 698px;padding: 10px; margin-bottom: 19px; background: #FFF; }
+button { background: url('../images/sendbutton.png') no-repeat 50% 0px; position: absolute; width: 250px; height: 76px; right: 0; bottom: 2px; margin: 0; padding: 0; border: 0; cursor: pointer; font: 20px/20px 'AvenirLTStd55RomanBold', Arial, Verdana, sans-serif; color: #FFF; }
+button:hover { background-position: 50% -152px; }
+
+/* COPYRIGHT --------------------------------------------- */
+
+#copyright { min-height: 20px; padding: 0px 0px 38px 7px; }
+#copyright div { font-family: 'AvenirLTStd35LightItalic', Arial, Verdana, sans-serif; }
+#copyright a:link, a:hover, a:visited { text-decoration: none; }
+#copyright a:hover { text-decoration: underline; }
+#copyright .section-title { margin-bottom: 20px; }
